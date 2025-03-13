@@ -1,0 +1,46 @@
+{
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "docker:dev": "docker-compose up --build",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up --build"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "inversify": "^6.2.2",
+    "inversify-express-utils": "^6.4.10",
+    "joi": "^17.13.3",
+    "moment-timezone": "^0.5.47",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "redis": "^4.7.0",
+    "reflect-metadata": "^0.2.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/redis": "^4.0.11",
+    "@types/uuid": "^10.0.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
