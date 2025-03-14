@@ -13,10 +13,15 @@ export function calculateDateRange(period: string, startDateStr?: string) {
       endDate.setDate(startDate.getDate() + 7);
       break;
     case PrayerTimePeriods.MONTHLY:
-      endDate.setMonth(startDate.getMonth() + 1);
+      startDate.setDate(1); 
+      endDate.setMonth(startDate.getMonth() + 1);  
+      endDate.setDate(0);  
       break;
     case PrayerTimePeriods.YEARLY:
+      startDate.setMonth(0);  
+      startDate.setDate(1);  
       endDate.setFullYear(startDate.getFullYear() + 1);
+      endDate.setDate(0); 
       break;
     case PrayerTimePeriods.RANGE:
       break;
