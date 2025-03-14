@@ -37,7 +37,7 @@ export class PrayerTimeController extends BaseController {
       return res.error("Her ikiside olmak zorunda startDate & endDate", 400);
     } else {
       ({ startDate, endDate } = calculateDateRange(
-        period || PrayerTimePeriods.DAILY,
+        period || PrayerTimePeriods.MONTHLY,
         startDateQuery
       ));
     }
