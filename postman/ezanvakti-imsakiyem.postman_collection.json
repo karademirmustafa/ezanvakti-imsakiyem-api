@@ -1,0 +1,339 @@
+{
+	"info": {
+		"_postman_id": "98ad7e8f-259b-41f5-8c73-eaea5739c5f5",
+		"name": "ezanvakti-imsakiyem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18300339"
+	},
+	"item": [
+		{
+			"name": "Ülke",
+			"item": [
+				{
+					"name": "Ülkeleri Getir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/countries",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ID'ye göre ÜlkeDetay Getir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/countries/:countryId",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"countries",
+								":countryId"
+							],
+							"variable": [
+								{
+									"key": "countryId",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ülke Adına göre Sorgulama",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/search/countries?q=tü",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"search",
+								"countries"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "tü"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Şehir/Eyalet",
+			"item": [
+				{
+					"name": "Ülke ID'sine göre Şehir/Eyaletlerini Getir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/states?countryId=2",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"states"
+							],
+							"query": [
+								{
+									"key": "countryId",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Şehir/Eyalet ID'sine göre Şehir/Eyalet Detaylarını getir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/states/:stateId",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"states",
+								":stateId"
+							],
+							"variable": [
+								{
+									"key": "stateId",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Şehir/Eyalet ismine göre sorgulama",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/search/states?q=t",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"search",
+								"states"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "t"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "İlçe/Semt",
+			"item": [
+				{
+					"name": "Şehirin İlçelerini Getir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/districts?stateId=559",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"districts"
+							],
+							"query": [
+								{
+									"key": "stateId",
+									"value": "559"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "İlçe Detay Getir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/districts/:districtId",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"districts",
+								":districtId"
+							],
+							"variable": [
+								{
+									"key": "districtId",
+									"value": "9156"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "İlçe İsmine göre sorgulama",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/locations/search/districts?q=ye",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"locations",
+								"search",
+								"districts"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "ye"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Namaz Vakitleri",
+			"item": [
+				{
+					"name": "Namaz Vakitlerini Getir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ezanvakti.imsakiyem.com/api/prayer-times/:districtId/:period?startDate=2025-02-15&endDate=2025-03-16&page=1&limit=100",
+							"protocol": "https",
+							"host": [
+								"ezanvakti",
+								"imsakiyem",
+								"com"
+							],
+							"path": [
+								"api",
+								"prayer-times",
+								":districtId",
+								":period"
+							],
+							"query": [
+								{
+									"key": "startDate",
+									"value": "2025-02-15",
+									"description": "optional"
+								},
+								{
+									"key": "endDate",
+									"value": "2025-03-16",
+									"description": "optional"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"description": "optional"
+								},
+								{
+									"key": "limit",
+									"value": "100",
+									"description": "optional"
+								}
+							],
+							"variable": [
+								{
+									"key": "districtId",
+									"value": "10000",
+									"description": "required"
+								},
+								{
+									"key": "period",
+									"value": "daily",
+									"description": "daily,weekly,monthly,yearly,range"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
