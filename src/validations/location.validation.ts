@@ -3,7 +3,7 @@ import { MESSAGES } from "../constants/messages.constants";
 import { LocationTypes } from "../constants/enums";
 
 const searchQuerySchema = Joi.object({
-  q: Joi.string().required().min(3).max(50).messages({
+  q: Joi.string().required().min(1).max(50).messages({
     "string.base": MESSAGES.VALIDATION.STRING_BASE,
     "string.empty": MESSAGES.VALIDATION.STRING_EMPTY,
     "string.min": MESSAGES.VALIDATION.STRING_MIN,

@@ -27,13 +27,8 @@ export class LocationController extends BaseController {
   async searchLocations(req: Request, res: Response, next: NextFunction) {
     const { type } = req.params;
     const query = req.query.q as string;
-
+    // TODO : Dönüş kısmı validationError olarak dönecek şekilde yapılmalı.
     if (!Object.values(LocationTypes).includes(type as LocationTypes)) {
-      return res.notFound(MESSAGES.ERROR.NOT_FOUND);
-    }
-
-    const schemaKey = `search${capitalize(type)}`;
-    if (!locationValidationSchemas[schemaKey]) {
       return res.notFound(MESSAGES.ERROR.NOT_FOUND);
     }
 
@@ -53,7 +48,6 @@ export class LocationController extends BaseController {
   @httpGet("/:type/:id", validate(locationValidationSchemas.paramsValidation))
   async getLocationDetails(req: Request, res: Response) {
     const { type, id } = req.params;
-
     if (!Object.values(LocationTypes).includes(type as LocationTypes)) {
       return res.notFound(MESSAGES.ERROR.NOT_FOUND);
     }
