@@ -29,6 +29,7 @@ import { LogWorker } from "./workers/log.worker";
 const server = new InversifyExpressServer(container);
 
 server.setConfig((app) => {
+app.set("trust proxy", 1);
   app.use(requestLoggingMiddleware);
 
   app.use(cors(corsOptions));
