@@ -47,9 +47,9 @@ export const MESSAGES = {
     COUNTRIES_FETCHED: "Ülkeler başarıyla getirildi.",
     COUNTRY_DETAILS_FETCHED: "Ülke detayları başarıyla getirildi.",
 
-    STATE_NOT_FOUND: "Eyalet bulunamadı.",
-    STATES_FETCHED: "Eyaletler başarıyla getirildi.",
-    STATE_DETAILS_FETCHED: "Eyalet detayları başarıyla getirildi.",
+    STATE_NOT_FOUND: "Şehir/Eyalet bulunamadı.",
+    STATES_FETCHED: "Şehir/Eyalet başarıyla getirildi.",
+    STATE_DETAILS_FETCHED: "Şehir/Eyalet detayları başarıyla getirildi.",
 
     DISTRICT_NOT_FOUND: "İlçe bulunamadı.",
     DISTRICTS_FETCHED: "İlçeler başarıyla getirildi.",
