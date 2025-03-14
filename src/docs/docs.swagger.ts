@@ -167,28 +167,73 @@
  *         _id:
  *           type: string
  *         districtId:
- *           type: string
+ *           type: object
+ *           properties:
+ *             _id:
+ *               type: string
+ *             name:
+ *               type: string
+ *             name_en:
+ *               type: string
+ *             url:
+ *               type: string
+ *             state_id:
+ *               type: object
+ *               properties:
+ *                 _id:
+ *                   type: string
+ *                 name:
+ *                   type: string
+ *                 name_en:
+ *                   type: string
+ *             country_id:
+ *               type: object
+ *               properties:
+ *                 _id:
+ *                   type: string
+ *                 name:
+ *                   type: string
+ *                 name_en:
+ *                   type: string
  *         date:
  *           type: string
  *           format: date
- *         fajr:
- *           type: string
- *           format: time
- *         sunrise:
- *           type: string
- *           format: time
- *         dhuhr:
- *           type: string
- *           format: time
- *         asr:
- *           type: string
- *           format: time
- *         maghrib:
- *           type: string
- *           format: time
- *         isha:
- *           type: string
- *           format: time
+ *         hijri_date:
+ *           type: object
+ *           properties:
+ *             day:
+ *               type: integer
+ *             month:
+ *               type: integer
+ *             month_name:
+ *               type: string
+ *             month_name_en:
+ *               type: string
+ *             year:
+ *               type: integer
+ *             full_date:
+ *               type: string
+ *         times:
+ *           type: object
+ *           properties:
+ *             imsak:
+ *               type: string
+ *               format: time
+ *             gunes:
+ *               type: string
+ *               format: time
+ *             ogle:
+ *               type: string
+ *               format: time
+ *             ikindi:
+ *               type: string
+ *               format: time
+ *             aksam:
+ *               type: string
+ *               format: time
+ *             yatsi:
+ *               type: string
+ *               format: time
  *         createdAt:
  *           type: string
  *           format: date-time
