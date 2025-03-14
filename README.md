@@ -133,7 +133,7 @@ curl -X GET "https://ezanvakti.imsakiyem.com/api/prayer-times/9147/monthly?start
 ## **API Dokümantasyon Kaynakları**  
   
  [Swagger Dokümanı](https://ezanvakti.imsakiyem.com/api-docs)  
- [Postman Koleksiyonu](https://ezanvakti.imsakiyem.com/api-docs)  
+ [Postman Koleksiyonu](https://raw.githubusercontent.com/karademirmustafa/ezanvakti-imsakiyem-api/refs/heads/main/postman/ezanvakti-imsakiyem.postman_collection.json)  
 
 ---
 
