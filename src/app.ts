@@ -25,11 +25,14 @@ import { notFoundMiddleware } from "./middlewares/not-found.middleware";
 import { sanitizeInput } from "./utils/sanitize.util";
 import { LogWorker } from "./workers/log.worker";
 
+// renderMarkdown yardımcı fonksiyonunu import etme
+import { renderMarkdown } from "./utils/markdown.util";
+import path from "path"; // Dosya yollarını yönetmek için
 
 const server = new InversifyExpressServer(container);
 
 server.setConfig((app) => {
-app.set("trust proxy", 1);
+  app.set("trust proxy", 1);
   app.use(requestLoggingMiddleware);
 
   app.use(cors(corsOptions));
@@ -47,6 +50,12 @@ app.set("trust proxy", 1);
 
   app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
   app.use(globalCacheMiddleware());
+
+  app.get("/", (req, res) => {
+    const filePath = path.join(__dirname, "../README.md");
+    const htmlContent = renderMarkdown(filePath);
+    res.send(htmlContent);
+  });
 });
 
 connectMongoDB();

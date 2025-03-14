@@ -19,6 +19,7 @@
     "inversify": "^6.2.2",
     "inversify-express-utils": "^6.4.10",
     "joi": "^17.13.3",
+    "marked": "^15.0.7",
     "moment-timezone": "^0.5.47",
     "mongo-sanitize": "^1.1.0",
     "mongoose": "^8.12.1",
