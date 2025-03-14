@@ -155,7 +155,7 @@ Hata, öneri, istek ve şikayet ne varsa alttaki iletişim kanallarından ileteb
 
 
 
-## **Ayrıca eklenmeyi düşündüğüm özellikler**  
+## **Ayrıca eklemeyi düşündüğüm özellikler**  
   1. **Coğrafi Koordinat Desteği**  
    - Enlem/Boylam bazlı konum sorgulama  
    - Hassas coğrafi bölge tespiti  
