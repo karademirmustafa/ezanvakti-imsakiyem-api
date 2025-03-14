@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: "https://ezanvakti.imsakiye.com",
+        url: "https://ezanvakti.imsakiyem.com",
         description: "Production server",
       },
       {
