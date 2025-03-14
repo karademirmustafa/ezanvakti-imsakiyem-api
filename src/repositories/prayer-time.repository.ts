@@ -23,8 +23,8 @@ export class PrayerTimeRepository extends BaseRepository<IPrayerTime> {
       .populate({
         path: 'district_id',
         populate: [
-          { path: 'state_id' },
-          { path: 'country_id' },
+          { path: 'state_id',select:'-createdAt -updatedAt -created_at -updated_at' },
+          { path: 'country_id',select:'-createdAt -updatedAt -created_at -updated_at' },
         ],
       })
       .sort({ date: 1 })

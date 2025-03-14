@@ -47,7 +47,7 @@ export class PrayerTimeController extends BaseController {
 
     let prayerTimes;
     let totalCount;
-
+    // TODO: Response dönüş değerinde ki country_id ve district_id tek bir kez ver sürekli populate etme
     if (page && limit) {
       const skip = (page - 1) * limit;
       [prayerTimes, totalCount] = await Promise.all([
