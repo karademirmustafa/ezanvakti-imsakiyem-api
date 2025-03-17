@@ -48,7 +48,12 @@ server.setConfig((app) => {
   app.use(sanitizeInput);
   app.use(rateLimiter);
 
+  app.get("/api-docs/json", (req, res) => {
+    res.setHeader("Content-Type", "application/json");
+    res.json(swaggerSpec);
+  });
   app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+  
   app.use(globalCacheMiddleware());
 
   app.get("/", (req, res) => {
