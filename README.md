@@ -136,7 +136,13 @@ curl -X GET "https://ezanvakti.imsakiyem.com/api/prayer-times/9147/monthly?start
  [Swagger JSON Dokümanı](https://ezanvakti.imsakiyem.com/api-docs/json)  
  [Postman Koleksiyonu](https://raw.githubusercontent.com/karademirmustafa/ezanvakti-imsakiyem-api/refs/heads/main/postman/ezanvakti-imsakiyem.postman_collection.json)  
 
----
+## 📝 Lisans
+Bu proje GNU Genel Kamu Lisansı v3.0 (GPL-3.0) ile lisanslanmıştır. Bu yazılımı kullanabilir, değiştirebilir ve dağıtabilirsiniz. Ancak:
+
+- Kaynak kodunu paylaşmak zorundasınız
+- Değişiklikleri belgelendirmelisiniz
+- Aynı lisansı kullanmalısınız
+- Detaylı bilgi için LICENSE dosyasına bakınız.
 
 ## **İletişim**  
 
