@@ -41,3 +41,6 @@ dist/**/*
 
 # ignore yarn.lock
 yarn.lock
+
+# Large JSON data files (exceed GitHub 100MB limit)
+open-data/prayer-times/tr-kktc/prayer-times.*.json

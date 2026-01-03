@@ -20,13 +20,18 @@ This data set contains prayer times for **880 districts** in Turkey and the Turk
 
 ```
 prayer-times/tr-kktc/
-├── prayer-times.2025.json         # 2025 TR-KKTC all prayer times
-├── prayer-times.2026.json         # 2026 TR-KKTC all prayer times
+├── prayer-times.2025.json         # 2025 TR-KKTC all prayer times (download from GitHub Releases)
+├── prayer-times.2026.json         # 2026 TR-KKTC all prayer times (download from GitHub Releases)
 ├── prayer-times.districts.json    # District list
 ├── prayer-times.states.json       # State list
 ├── prayer-times.countries.json    # Country list
 └── README.md
 ```
+
+**📦 Download Large JSON Files:**
+- Due to GitHub file size limits, large JSON files are published on GitHub Releases
+- Download `prayer-times.2025.json` and `prayer-times.2026.json` from [GitHub Releases](https://github.com/karademirmustafa/ezanvakti-imsakiyem-api/releases)
+- Small reference files (districts, states, countries) are available directly in the repository
 
 ## 📊 Data Formats
 

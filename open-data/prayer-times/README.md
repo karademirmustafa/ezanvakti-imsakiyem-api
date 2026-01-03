@@ -20,13 +20,18 @@ Bu veri seti, Türkiye ve Kuzey Kıbrıs Türk Cumhuriyeti'ndeki **880 district*
 
 ```
 prayer-times/tr-kktc/
-├── prayer-times.2025.json         # 2025 yılı TR-KKTC tüm namaz vakitleri
-├── prayer-times.2026.json         # 2026 yılı TR-KKTC tüm namaz vakitleri
+├── prayer-times.2025.json         # 2025 yılı TR-KKTC tüm namaz vakitleri (GitHub Releases'den indirin)
+├── prayer-times.2026.json         # 2026 yılı TR-KKTC tüm namaz vakitleri (GitHub Releases'den indirin)
 ├── prayer-times.districts.json    # District (İlçe) listesi
 ├── prayer-times.states.json       # State (İl) listesi
 ├── prayer-times.countries.json    # Country (Ülke) listesi
 └── README.md
 ```
+
+**📦 Büyük JSON Dosyalarını İndirme:**
+- Dosya boyutu GitHub limitini aştığı için büyük JSON dosyaları GitHub Releases'de yayınlanmaktadır
+- [GitHub Releases](https://github.com/karademirmustafa/ezanvakti-imsakiyem-api/releases) sayfasından `prayer-times.2025.json` ve `prayer-times.2026.json` dosyalarını indirebilirsiniz
+- Küçük referans dosyaları (districts, states, countries) doğrudan repository'de mevcuttur
 
 ## 📊 Veri Formatları
 
