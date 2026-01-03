@@ -27,7 +27,7 @@ import { LogWorker } from "./workers/log.worker";
 
 // renderMarkdown yardımcı fonksiyonunu import etme
 import { renderMarkdown } from "./utils/markdown.util";
-import path from "path"; // Dosya yollarını yönetmek için
+import path from "path";
 
 const server = new InversifyExpressServer(container);
 

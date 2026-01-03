@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "1",
+    "name": "KUZEY KIBRIS",
+    "name_en": "KUZEY KIBRIS",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.554Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.554Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.439Z"
+    }
+  },
+  {
+    "_id": "2",
+    "name": "TÜRKİYE",
+    "name_en": "TÜRKİYE",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.556Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.556Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.439Z"
+    }
+  }
+]

@@ -1,6 +1,8 @@
 # **Ezan Vakti İmsakiyem API Dokümantasyonu** 
 ---
-*v1.0.0 | Son güncelleme: 14 Mart 2025*
+*v1.0.0 | Son güncelleme: 3 Ocak 2026*
+
+**Language / Dil:** [🇹🇷 Türkçe](README.md) | [🇬🇧 English](README.en.md)
 ---
 Ezan Vakti İmsakiyem API, T.C. Diyanet İşleri Başkanlığı tarafından yayınlanan dünya genelindeki ülkelerin ezan vakitlerini günlük,haftalık, aylık ve yıllık olarak sunan **ücretsiz** API hizmetidir.
 
@@ -25,8 +27,16 @@ curl -X GET "https://ezanvakti.imsakiyem.com/api/prayer-times/9220/yearly" \
 - [Tekirdağ Çorlu Haftalık Namaz Vakti](https://ezanvakti.imsakiyem.com/api/prayer-times/9873/weekly)
 - [Ankara Polatlı Aylık Namaz Vakti](https://ezanvakti.imsakiyem.com/api/prayer-times/9220/monthly)
 - [Muş Bulanık Yıllık Namaz Vakti](https://ezanvakti.imsakiyem.com/api/prayer-times/9751/yearly)
-- [Almanya Hamburg WILHELMSBURG 14 Mart(2025-03-14) ile 06 Haziran(2025-06-06) Namaz Vakitleri](https://ezanvakti.imsakiyem.com/api/prayer-times/10034/range?startDate=2025-03-14&endDate=2025-06-06)
+- [Almanya Hamburg WILHELMSBURG 14 Mart(2026-03-14) ile 06 Haziran(2026-06-06) Namaz Vakitleri](https://ezanvakti.imsakiyem.com/api/prayer-times/10034/range?startDate=2026-03-14&endDate=2026-06-06)
 
+
+---
+
+## **📋 Güncellemeler**
+
+**3 Ocak 2026:**
+- ✅ 2026 yılı namaz vakitleri verileri eklendi
+- 📦 Açık veri seti için [open-data/prayer-times/README.md](open-data/prayer-times/README.md) dosyasına bakabilirsiniz
 
 ---
 
@@ -135,6 +145,7 @@ curl -X GET "https://ezanvakti.imsakiyem.com/api/prayer-times/9147/monthly?start
  [Swagger Dokümanı](https://ezanvakti.imsakiyem.com/api-docs)  
  [Swagger JSON Dokümanı](https://ezanvakti.imsakiyem.com/api-docs/json)  
  [Postman Koleksiyonu](https://raw.githubusercontent.com/karademirmustafa/ezanvakti-imsakiyem-api/refs/heads/main/postman/ezanvakti-imsakiyem.postman_collection.json)  
+ [Açık Veri Seti](open-data/prayer-times/README.md) - Türkiye ve KKTC için JSON formatında namaz vakitleri verileri  
 
 ## 📝 Lisans
 Bu proje GNU Genel Kamu Lisansı v3.0 (GPL-3.0) ile lisanslanmıştır. Bu yazılımı kullanabilir, değiştirebilir ve dağıtabilirsiniz. Ancak:

@@ -1,0 +1,1232 @@
+[
+  {
+    "_id": "751",
+    "name": "KUZEY KIBRIS",
+    "name_en": "KUZEY KIBRIS",
+    "country_id": "1",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "500",
+    "name": "ADANA",
+    "name_en": "ADANA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "501",
+    "name": "ADIYAMAN",
+    "name_en": "ADIYAMAN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "502",
+    "name": "AFYONKARAHİSAR",
+    "name_en": "AFYONKARAHİSAR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "503",
+    "name": "AĞRI",
+    "name_en": "AĞRI",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "504",
+    "name": "AKSARAY",
+    "name_en": "AKSARAY",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "505",
+    "name": "AMASYA",
+    "name_en": "AMASYA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.871Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "506",
+    "name": "ANKARA",
+    "name_en": "ANKARA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "507",
+    "name": "ANTALYA",
+    "name_en": "ANTALYA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "508",
+    "name": "ARDAHAN",
+    "name_en": "ARDAHAN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "509",
+    "name": "ARTVİN",
+    "name_en": "ARTVİN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "510",
+    "name": "AYDIN",
+    "name_en": "AYDIN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "511",
+    "name": "BALIKESİR",
+    "name_en": "BALIKESİR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "512",
+    "name": "BARTIN",
+    "name_en": "BARTIN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "513",
+    "name": "BATMAN",
+    "name_en": "BATMAN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "514",
+    "name": "BAYBURT",
+    "name_en": "BAYBURT",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "515",
+    "name": "BİLECİK",
+    "name_en": "BİLECİK",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "516",
+    "name": "BİNGÖL",
+    "name_en": "BİNGÖL",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "517",
+    "name": "BİTLİS",
+    "name_en": "BİTLİS",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "518",
+    "name": "BOLU",
+    "name_en": "BOLU",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "519",
+    "name": "BURDUR",
+    "name_en": "BURDUR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "520",
+    "name": "BURSA",
+    "name_en": "BURSA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "521",
+    "name": "ÇANAKKALE",
+    "name_en": "ÇANAKKALE",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "522",
+    "name": "ÇANKIRI",
+    "name_en": "ÇANKIRI",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "523",
+    "name": "ÇORUM",
+    "name_en": "ÇORUM",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "524",
+    "name": "DENİZLİ",
+    "name_en": "DENİZLİ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "525",
+    "name": "DİYARBAKIR",
+    "name_en": "DİYARBAKIR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "526",
+    "name": "DÜZCE",
+    "name_en": "DÜZCE",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "527",
+    "name": "EDİRNE",
+    "name_en": "EDİRNE",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.876Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "528",
+    "name": "ELAZIĞ",
+    "name_en": "ELAZIĞ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "529",
+    "name": "ERZİNCAN",
+    "name_en": "ERZİNCAN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "530",
+    "name": "ERZURUM",
+    "name_en": "ERZURUM",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "531",
+    "name": "ESKİŞEHİR",
+    "name_en": "ESKİŞEHİR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "532",
+    "name": "GAZİANTEP",
+    "name_en": "GAZİANTEP",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "534",
+    "name": "GÜMÜŞHANE",
+    "name_en": "GÜMÜŞHANE",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "535",
+    "name": "HAKKARİ",
+    "name_en": "HAKKARİ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "536",
+    "name": "HATAY",
+    "name_en": "HATAY",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "537",
+    "name": "IĞDIR",
+    "name_en": "IĞDIR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "538",
+    "name": "ISPARTA",
+    "name_en": "ISPARTA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "539",
+    "name": "İSTANBUL",
+    "name_en": "İSTANBUL",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "540",
+    "name": "İZMİR",
+    "name_en": "İZMİR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "533",
+    "name": "GİRESUN",
+    "name_en": "GİRESUN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "541",
+    "name": "KAHRAMANMARAŞ",
+    "name_en": "KAHRAMANMARAŞ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "542",
+    "name": "KARABÜK",
+    "name_en": "KARABÜK",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "543",
+    "name": "KARAMAN",
+    "name_en": "KARAMAN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "544",
+    "name": "KARS",
+    "name_en": "KARS",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "545",
+    "name": "KASTAMONU",
+    "name_en": "KASTAMONU",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "546",
+    "name": "KAYSERİ",
+    "name_en": "KAYSERİ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "547",
+    "name": "KİLİS",
+    "name_en": "KİLİS",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "548",
+    "name": "KIRIKKALE",
+    "name_en": "KIRIKKALE",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "549",
+    "name": "KIRKLARELİ",
+    "name_en": "KIRKLARELİ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "550",
+    "name": "KIRŞEHİR",
+    "name_en": "KIRŞEHİR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "551",
+    "name": "KOCAELİ",
+    "name_en": "KOCAELİ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "552",
+    "name": "KONYA",
+    "name_en": "KONYA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "553",
+    "name": "KÜTAHYA",
+    "name_en": "KÜTAHYA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "554",
+    "name": "MALATYA",
+    "name_en": "MALATYA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "555",
+    "name": "MANİSA",
+    "name_en": "MANİSA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "556",
+    "name": "MARDİN",
+    "name_en": "MARDİN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "557",
+    "name": "MERSİN",
+    "name_en": "MERSİN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "558",
+    "name": "MUĞLA",
+    "name_en": "MUĞLA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "559",
+    "name": "MUŞ",
+    "name_en": "MUŞ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "560",
+    "name": "NEVŞEHİR",
+    "name_en": "NEVŞEHİR",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "561",
+    "name": "NİĞDE",
+    "name_en": "NİĞDE",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "562",
+    "name": "ORDU",
+    "name_en": "ORDU",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "563",
+    "name": "OSMANİYE",
+    "name_en": "OSMANİYE",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "564",
+    "name": "RİZE",
+    "name_en": "RİZE",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "565",
+    "name": "SAKARYA",
+    "name_en": "SAKARYA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "566",
+    "name": "SAMSUN",
+    "name_en": "SAMSUN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "567",
+    "name": "ŞANLIURFA",
+    "name_en": "ŞANLIURFA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "568",
+    "name": "SİİRT",
+    "name_en": "SİİRT",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "569",
+    "name": "SİNOP",
+    "name_en": "SİNOP",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "570",
+    "name": "ŞIRNAK",
+    "name_en": "ŞIRNAK",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "571",
+    "name": "SİVAS",
+    "name_en": "SİVAS",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "572",
+    "name": "TEKİRDAĞ",
+    "name_en": "TEKİRDAĞ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "573",
+    "name": "TOKAT",
+    "name_en": "TOKAT",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "574",
+    "name": "TRABZON",
+    "name_en": "TRABZON",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "575",
+    "name": "TUNCELİ",
+    "name_en": "TUNCELİ",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "576",
+    "name": "UŞAK",
+    "name_en": "UŞAK",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "577",
+    "name": "VAN",
+    "name_en": "VAN",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "578",
+    "name": "YALOVA",
+    "name_en": "YALOVA",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "579",
+    "name": "YOZGAT",
+    "name_en": "YOZGAT",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  },
+  {
+    "_id": "580",
+    "name": "ZONGULDAK",
+    "name_en": "ZONGULDAK",
+    "country_id": "2",
+    "createdAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-14T01:01:05.877Z"
+    },
+    "updated_at": {
+      "$date": "2026-01-03T10:49:30.576Z"
+    }
+  }
+]

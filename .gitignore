@@ -14,7 +14,7 @@ pids
 logs
 results
 tmp
-
+scripts/*
 # Build
 public/css/main.css
 
