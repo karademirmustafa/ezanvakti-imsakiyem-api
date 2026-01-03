@@ -73,6 +73,18 @@ server.setConfig((app) => {
     const htmlContent = renderMarkdown(filePath, "en");
     res.send(htmlContent);
   });
+
+  app.get("/open-data/prayer-times/README.md", (req, res) => {
+    const filePath = path.join(__dirname, "../open-data/prayer-times/README.md");
+    const htmlContent = renderMarkdown(filePath, "tr");
+    res.send(htmlContent);
+  });
+
+  app.get("/open-data/prayer-times/README.en.md", (req, res) => {
+    const filePath = path.join(__dirname, "../open-data/prayer-times/README.en.md");
+    const htmlContent = renderMarkdown(filePath, "en");
+    res.send(htmlContent);
+  });
 });
 
 connectMongoDB();
