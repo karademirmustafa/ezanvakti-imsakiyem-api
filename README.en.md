@@ -37,6 +37,17 @@ curl -X GET "https://ezanvakti.imsakiyem.com/api/prayer-times/9220/yearly" \
 **January 3, 2026:**
 - ✅ 2026 prayer times data added
 - 📦 For open data set, see [open-data/prayer-times/README.md](open-data/prayer-times/README.md)
+- 🔧 Data corrections:
+  - Incorrectly named data has been corrected
+  - Incorrect country display has been fixed to "FILISTIN" (Palestine)
+  - Cities that were incorrectly named with "israel" have been updated to correct names:
+    - Ashdod → Isdud
+    - Beersheba → Birü's-Seb
+    - Haifa → Hefa
+    - Nazareth → En-Nasira
+    - Netanya → Umm Khalid
+    - Rishon LeZion → Uyun Karah
+    - Tel Aviv → Yafa
 
 ---
 

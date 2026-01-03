@@ -37,6 +37,17 @@ curl -X GET "https://ezanvakti.imsakiyem.com/api/prayer-times/9220/yearly" \
 **3 Ocak 2026:**
 - ✅ 2026 yılı namaz vakitleri verileri eklendi
 - 📦 Açık veri seti için [open-data/prayer-times/README.md](open-data/prayer-times/README.md) dosyasına bakabilirsiniz
+- 🔧 Veri düzeltmeleri:
+  - Yanlış isimlendirilen veriler düzenlenmiştir
+  - Yanlış ülke gösterimi "FILISTIN" olarak düzeltilmiştir
+  - israil adı ile geçen şehirlerinin isimleri doğru isimlerle veri güncellenmiştir:
+    - Ashdod → Isdud
+    - Beersheba → Birü's-Seb
+    - Haifa → Hefa
+    - Nazareth → En-Nasira
+    - Netanya → Umm Khalid
+    - Rishon LeZion → Uyun Karah
+    - Tel Aviv → Yafa
 
 ---
 
