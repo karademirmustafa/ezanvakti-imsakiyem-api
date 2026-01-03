@@ -58,7 +58,19 @@ server.setConfig((app) => {
 
   app.get("/", (req, res) => {
     const filePath = path.join(__dirname, "../README.md");
-    const htmlContent = renderMarkdown(filePath);
+    const htmlContent = renderMarkdown(filePath, "tr");
+    res.send(htmlContent);
+  });
+
+  app.get("/README.md", (req, res) => {
+    const filePath = path.join(__dirname, "../README.md");
+    const htmlContent = renderMarkdown(filePath, "tr");
+    res.send(htmlContent);
+  });
+
+  app.get("/README.en.md", (req, res) => {
+    const filePath = path.join(__dirname, "../README.en.md");
+    const htmlContent = renderMarkdown(filePath, "en");
     res.send(htmlContent);
   });
 });

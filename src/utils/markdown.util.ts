@@ -1,19 +1,36 @@
 import fs from "fs";
+import path from "path";
 import marked from "marked";
 
-export const renderMarkdown = (filePath): string => {
+export const renderMarkdown = (filePath: string, lang: string = "tr"): string => {
   try {
-    const fileContent = fs.readFileSync(filePath, "utf8");
+    if (!fs.existsSync(filePath)) {
+      return `
+        <!DOCTYPE html>
+        <html lang="${lang}">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>File Not Found</title>
+        </head>
+        <body>
+          <h1>${lang === "tr" ? "Dosya bulunamadı" : "File not found"}</h1>
+          <p>${lang === "tr" ? "İstenen dosya bulunamadı." : "The requested file could not be found."}</p>
+        </body>
+        </html>
+      `;
+    }
 
+    const fileContent = fs.readFileSync(filePath, "utf8");
     const htmlContent = marked.parse(fileContent);
 
     return `
       <!DOCTYPE html>
-      <html lang="tr">
+      <html lang="${lang}">
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>README.md</title>
+        <title>${path.basename(filePath)}</title>
         <style>
           body {
             font-family: Arial, sans-serif;
@@ -42,9 +59,22 @@ export const renderMarkdown = (filePath): string => {
       <body>
         ${htmlContent}
       </body>
-      </html>
+    </html>
     `;
   } catch (error) {
-    return "<h1>Sayfaya ulaşılamıyor</h1>";
+    return `
+      <!DOCTYPE html>
+      <html lang="${lang}">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Error</title>
+      </head>
+      <body>
+        <h1>${lang === "tr" ? "Sayfaya ulaşılamıyor" : "Page unavailable"}</h1>
+        <p>${lang === "tr" ? "Bir hata oluştu." : "An error occurred."}</p>
+      </body>
+      </html>
+    `;
   }
 };
