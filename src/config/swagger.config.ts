@@ -5,7 +5,7 @@ const options = {
     openapi: "3.0.0",
     info: {
       title: "Ezan Vakti API - İmsakiyem",
-      version: "1.0.0",
+      version: "1.0.1",
       description: "T.C. Diyanet İşleri Başkanlığı tarafından yayınlanan, dünya genelindeki ülkelerin ezan vakitlerini haftalık, aylık ve yıllık olarak sunan API hizmetidir.Kaynak kodlarına GitHub üzerinden ulaşabilirsiniz: [GitHub Repository](https://github.com/karademirmustafa/ezanvakti-imsakiyem-api)",
     },
     servers: [

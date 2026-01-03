@@ -1,6 +1,6 @@
 # **Türkiye and KKTC Prayer Times Open Data Set**
 ---
-*v1.0.0 | Last updated: January 3, 2026*
+*v1.0.1 | Last updated: January 3, 2026*
 
 **Language / Dil:** [🇹🇷 Türkçe](README.md) | [🇬🇧 English](README.en.md)
 ---
@@ -30,7 +30,7 @@ prayer-times/tr-kktc/
 
 **📦 Download Large JSON Files:**
 - Due to GitHub file size limits, large JSON files are published on GitHub Releases
-- Download `prayer-times.2025.json` and `prayer-times.2026.json` from [GitHub Releases](https://github.com/karademirmustafa/ezanvakti-imsakiyem-api/releases)
+- Download `prayer-times.2025.json` and `prayer-times.2026.json` from [v1.0.0 Release](https://github.com/karademirmustafa/ezanvakti-imsakiyem-api/releases/tag/v1.0.0)
 - Small reference files (districts, states, countries) are available directly in the repository
 
 ## 📊 Data Formats

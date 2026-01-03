@@ -1,6 +1,6 @@
 # **Ezan Vakti İmsakiyem API Dokümantasyonu** 
 ---
-*v1.0.0 | Son güncelleme: 3 Ocak 2026*
+*v1.0.1 | Son güncelleme: 3 Ocak 2026*
 
 **Language / Dil:** [🇹🇷 Türkçe](README.md) | [🇬🇧 English](README.en.md)
 ---
@@ -145,7 +145,7 @@ curl -X GET "https://ezanvakti.imsakiyem.com/api/prayer-times/9147/monthly?start
  [Swagger Dokümanı](https://ezanvakti.imsakiyem.com/api-docs)  
  [Swagger JSON Dokümanı](https://ezanvakti.imsakiyem.com/api-docs/json)  
  [Postman Koleksiyonu](https://raw.githubusercontent.com/karademirmustafa/ezanvakti-imsakiyem-api/refs/heads/main/postman/ezanvakti-imsakiyem.postman_collection.json)  
- [Açık Veri Seti](open-data/prayer-times/README.md) - Türkiye ve KKTC için JSON formatında namaz vakitleri verileri  
+ [Açık Veri Seti](open-data/prayer-times/README.md) - Türkiye ve KKTC için JSON formatında namaz vakitleri verileri ([v1.0.0 Release](https://github.com/karademirmustafa/ezanvakti-imsakiyem-api/releases/tag/v1.0.0))  
 
 ## 📝 Lisans
 Bu proje GNU Genel Kamu Lisansı v3.0 (GPL-3.0) ile lisanslanmıştır. Bu yazılımı kullanabilir, değiştirebilir ve dağıtabilirsiniz. Ancak:

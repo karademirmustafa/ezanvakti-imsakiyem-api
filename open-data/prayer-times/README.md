@@ -1,6 +1,6 @@
 # **Türkiye ve KKTC Namaz Vakitleri Açık Veri Seti**
 ---
-*v1.0.0 | Son güncelleme: 3 Ocak 2026*
+*v1.0.1 | Son güncelleme: 3 Ocak 2026*
 
 **Language / Dil:** [🇹🇷 Türkçe](README.md) | [🇬🇧 English](README.en.md)
 ---
@@ -30,7 +30,7 @@ prayer-times/tr-kktc/
 
 **📦 Büyük JSON Dosyalarını İndirme:**
 - Dosya boyutu GitHub limitini aştığı için büyük JSON dosyaları GitHub Releases'de yayınlanmaktadır
-- [GitHub Releases](https://github.com/karademirmustafa/ezanvakti-imsakiyem-api/releases) sayfasından `prayer-times.2025.json` ve `prayer-times.2026.json` dosyalarını indirebilirsiniz
+- [v1.0.0 Release](https://github.com/karademirmustafa/ezanvakti-imsakiyem-api/releases/tag/v1.0.0) sayfasından `prayer-times.2025.json` ve `prayer-times.2026.json` dosyalarını indirebilirsiniz
 - Küçük referans dosyaları (districts, states, countries) doğrudan repository'de mevcuttur
 
 ## 📊 Veri Formatları
