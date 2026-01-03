@@ -1,4 +1,4 @@
-# **Turkey and TRNC Prayer Times Open Data Set**
+# **Türkiye and KKTC Prayer Times Open Data Set**
 ---
 *v1.0.0 | Last updated: January 3, 2026*
 

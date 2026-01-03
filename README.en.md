@@ -4,7 +4,7 @@
 
 **Language / Dil:** [🇹🇷 Türkçe](README.md) | [🇬🇧 English](README.en.md)
 ---
-Prayer Times İmsakiyem API is a **free** API service that provides daily, weekly, monthly, and yearly prayer times for countries worldwide, published by the Presidency of Religious Affairs of Turkey.
+Prayer Times İmsakiyem API is a **free** API service that provides daily, weekly, monthly, and yearly prayer times for countries worldwide, published by the Presidency of Religious Affairs of Türkiye.
 
 **Key Features:**  
 ✅ Hierarchical Country/City/District data access  
@@ -145,7 +145,7 @@ curl -X GET "https://ezanvakti.imsakiyem.com/api/prayer-times/9147/monthly?start
  [Swagger Documentation](https://ezanvakti.imsakiyem.com/api-docs)  
  [Swagger JSON Documentation](https://ezanvakti.imsakiyem.com/api-docs/json)  
  [Postman Collection](https://raw.githubusercontent.com/karademirmustafa/ezanvakti-imsakiyem-api/refs/heads/main/postman/ezanvakti-imsakiyem.postman_collection.json)  
- [Open Data Set](open-data/prayer-times/README.md) - JSON format prayer times data for Turkey and TRNC  
+ [Open Data Set](open-data/prayer-times/README.md) - JSON format prayer times data for Türkiye and KKTC  
 
 ## 📝 License
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0). You may use, modify, and distribute this software. However:
